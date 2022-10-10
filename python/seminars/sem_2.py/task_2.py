@@ -23,3 +23,17 @@ while i < n:
     i += 1
 
 print(lst)
+
+# подсказка по обращению к спискам
+
+# my_list = [3, 6, 3, 1, 7]
+
+# for elem in my_list:
+#     print(elem)
+
+# по индексу
+
+# for i in range(len(my_list)):
+#     print(my_list[i])
+#     my_list[i] = my_list[i] * 2
+# print(my_list)
