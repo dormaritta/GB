@@ -5,19 +5,23 @@
 num = 123
 elem = [123, '234', 123, '567']
 
+
 def check_number(num, elem):
     for e in elem:
         if e == num:
             return True
 
+
 if check_number(num, elem):
     print(f'число {num} присутствует в списке')
+
 else:
     print(f'числа {num} в списке нет')
 
 # 2 var
 
 list_ = ['qwe', '2,4', '3', '45']
+
 
 def is_num(str_):
     if str_.count(',') > 1:

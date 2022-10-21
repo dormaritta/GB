@@ -3,9 +3,11 @@
 
 import time
 
+
 def my_random(min, max):
     time.sleep(0.3)
     return int((time.time() % 1 * (max - min)) + min)
+
 
 for i in range(10):
     print(my_random(1, 8))
