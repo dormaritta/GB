@@ -5,3 +5,13 @@
 # Пример:
 
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
+
+list = [1.1, 1.2, 3.1, 5, 10.01]
+max_, min_ = 0, 1
+for i in list:
+    if (divmod(i, 1))[1] > max_:
+        max_ = divmod(i, 1)[1]
+    elif (divmod(i, 1))[1] < min_ and (divmod(i, 1))[1] != 0:
+        min_ = (divmod(i, 1))[1]
+print('список:', list)
+print('разница:', round(max_ - min_, 2))

@@ -11,5 +11,3 @@ def fib(n):
 for i in range(10):
     print(fib(i), end=' ')
 
-# or
-
