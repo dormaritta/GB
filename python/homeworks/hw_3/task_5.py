@@ -23,4 +23,4 @@ def fib(num):
     return fib
 
 
-print(fib(number))
+print(f'для числа {number} ряд:', fib(number))
